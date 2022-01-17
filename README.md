@@ -21,15 +21,9 @@ ___
 
 <p align="justify">
 
-Olá, tudo bem? Espero que sim e desde já agradeço pela atenção e oportunidade, meu nome é Lucas de Araujo Cirqueira e fiz o teste porem é a primeira vez utilizando o framework nestJs, eu uso o express, sendo assim acredito que não tireo o verdadeiro potencial do framework nestJs. Desta maneira, o link para arquivo <strong>JSON gerado pelo Insomnia</strong> com as rotas, para acessar o arquivo basta clicar neste <a href='https://lab.coodesh.com/lucas24/back-end-challenge-2021-space-flight-news/-/blob/main/documentation/Insomnia-Lucas_Araujo_Cirqueira.json'> link</a> ou procurar na raiz do projeto a pasta <strong>'documentation'</strong> e dentro dela o arquivo <strong>‘Insomnia-Lucas_Araujo_Cirqueira.json’</strong>.
+Olá, tudo bem? Espero que sim e desde já agradeço pela atenção e oportunidade, meu nome é Lucas de Araujo Cirqueira e fiz o teste porem é a primeira vez utilizando o framework nestJs, eu uso o express, sendo assim acredito que não tireo o verdadeiro potencial do framework nestJs. Desta maneira, o link para arquivo <strong>JSON gerado pelo Insomnia</strong> com as rotas, para acessar o arquivo basta clicar neste <a href='https://github.com/araujo21x/onbank_test/blob/main/documentation/Insomnia-Lucas_Araujo_Cirqueira.json'> link</a> ou procurar na raiz do projeto a pasta <strong>'documentation'</strong> e dentro dela o arquivo <strong>‘Insomnia-Lucas_Araujo_Cirqueira.json’</strong>.
 
 </p>
-
----
-
-### Veja o arquivo [package.json](https://lab.coodesh.com/lucas24/back-end-challenge-2021-space-flight-news/-/blob/main/package.json)
-
-<br>
 
 ---
 # Executando o projeto
@@ -43,17 +37,17 @@ Olá, tudo bem? Espero que sim e desde já agradeço pela atenção e oportunida
 - HTTPS:
 
 ```bash
-$ git clone https://lab.coodesh.com/lucas24/back-end-challenge-2021-space-flight-news.git
+$ git clone https://github.com/araujo21x/onbank_test.git
 ```
 - SSH:
 
 ```bash
-$ git clone git@lab.coodesh.com:lucas24/back-end-challenge-2021-space-flight-news.git
+$ git clone git@github.com:araujo21x/onbank_test.git
 ```
 
 <strong>2 - </strong>  Acesse a pasta do projeto no terminal/cmd:
 ```bash
-$ cd  back-end-challenge-2021-space-flight-news/
+$ cd  onbank_test/
 ```
 
 <strong>3 - </strong>  Instale as dependências do projeto:
