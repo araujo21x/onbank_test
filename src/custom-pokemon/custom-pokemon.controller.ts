@@ -3,9 +3,10 @@ import {
   Get,
   Post,
   Body,
-  Patch,
+  Put,
   Param,
   Delete,
+  Query,
 } from '@nestjs/common';
 import { CustomPokemonService } from './custom-pokemon.service';
 import { CreateCustomPokemonDto } from './dto/create-custom-pokemon.dto';
@@ -21,25 +22,25 @@ export class CustomPokemonController {
   }
 
   @Get()
-  findAll() {
-    return this.customPokemonService.findAll();
+  findAll(@Query('limit') limit: number, @Query('page') page: number) {
+    return this.customPokemonService.findAll(Number(limit), Number(page));
   }
 
   @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.customPokemonService.findOne(+id);
+  findOne(@Param('id') id: number) {
+    return this.customPokemonService.findOne(Number(id));
   }
 
-  @Patch(':id')
+  @Put(':id')
   update(
-    @Param('id') id: string,
+    @Param('id') id: number,
     @Body() updateCustomPokemonDto: UpdateCustomPokemonDto,
   ) {
-    return this.customPokemonService.update(+id, updateCustomPokemonDto);
+    return this.customPokemonService.update(id, updateCustomPokemonDto);
   }
 
   @Delete(':id')
-  remove(@Param('id') id: string) {
+  remove(@Param('id') id: number) {
     return this.customPokemonService.remove(+id);
   }
 }
