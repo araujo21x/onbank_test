@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { ConfigModule } from '@nestjs/config';
+// import { ConfigModule } from '@nestjs/config';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
@@ -9,14 +9,16 @@ import { PokemonModule } from './pokemon/pokemon.module';
 import { CustomPokemonModule } from './custom-pokemon/custom-pokemon.module';
 
 import * as path from 'path';
-import configuration from './config/configuration';
+import { config } from 'dotenv';
+config({
+  path: process.env.NODE_ENV === 'development' ? '.env.development' : '.env',
+});
 
 @Module({
   imports: [
-    ConfigModule.forRoot({
-      isGlobal: true,
-      load: [configuration],
-    }),
+    // ConfigModule.forRoot({
+    //   isGlobal: true,
+    // }),
     TypeOrmModule.forRoot({
       type: 'postgres',
       url: process.env.URL_DATABASE,
