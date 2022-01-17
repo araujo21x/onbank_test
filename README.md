@@ -1,73 +1,79 @@
+<h1 align="center"> Back-end Challenge  2021 - Space Flight News </h1>
+
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
+  <img width="auto" height="23em" src="https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E" >
+  <img width="auto" height="23em" src="https://img.shields.io/badge/-TypeScript-323330?style=flat&logo=TypeScript">
+  <img width="auto" height="23em" src="https://img.shields.io/badge/Node.js-323330?style=flat&logo=Node.js&logoColor=white">
+  <img width="auto" height="23em" src="https://img.shields.io/badge/Nest.js-323330?style=flate">
+  <img width="auto" height="23em" src="https://img.shields.io/badge/PostgreSQL-323330?style=flate&logo=postgresql&logoColor=white">
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+# Sumario 
+- [Sumario](#sumario)
+- [Avisos](#avisos)
+    - [Veja o arquivo package.json](#veja-o-arquivo-packagejson)
+- [Executando o projeto](#executando-o-projeto)
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+<br> 
+
+___
+# Avisos
+
+<p align="justify">
+
+Olá, tudo bem? Espero que sim e desde já agradeço pela atenção e oportunidade, meu nome é Lucas de Araujo Cirqueira e fiz o teste porem é a primeira vez utilizando o framework nestJs, eu uso o express, sendo assim acredito que não tireo o verdadeiro potencial do framework nestJs. Desta maneira, o link para arquivo <strong>JSON gerado pelo Insomnia</strong> com as rotas, para acessar o arquivo basta clicar neste <a href='https://lab.coodesh.com/lucas24/back-end-challenge-2021-space-flight-news/-/blob/main/documentation/Insomnia-Lucas_Araujo_Cirqueira.json'> link</a> ou procurar na raiz do projeto a pasta <strong>'documentation'</strong> e dentro dela o arquivo <strong>‘Insomnia-Lucas_Araujo_Cirqueira.json’</strong>.
+
 </p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+---
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+### Veja o arquivo [package.json](https://lab.coodesh.com/lucas24/back-end-challenge-2021-space-flight-news/-/blob/main/package.json)
 
-## Installation
+<br>
 
-```bash
-$ npm install
-```
+---
+# Executando o projeto
 
-## Running the app
+<h2 align="center">Baixando e configurando<a name="downCod"></a></h2>
 
-```bash
-# development
-$ npm run start
+<br> 
 
-# watch mode
-$ npm run start:dev
+<strong>1 - </strong>  Clone este repositório:
 
-# production mode
-$ npm run start:prod
-```
-
-## Test
+- HTTPS:
 
 ```bash
-# unit tests
-$ npm run test
+$ git clone https://lab.coodesh.com/lucas24/back-end-challenge-2021-space-flight-news.git
+```
+- SSH:
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+```bash
+$ git clone git@lab.coodesh.com:lucas24/back-end-challenge-2021-space-flight-news.git
 ```
 
-## Support
+<strong>2 - </strong>  Acesse a pasta do projeto no terminal/cmd:
+```bash
+$ cd  back-end-challenge-2021-space-flight-news/
+```
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+<strong>3 - </strong>  Instale as dependências do projeto:
+```bash
+$ yarn install
+```
 
-## Stay in touch
+<strong>4 - </strong>  Configurando as variáveis do ambiente de desenvolvimento:
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+1. Crie uma copia do arquivo "exemple.env";
 
-## License
+2. Modifique o nome dessa copia para ".env.development";
 
-Nest is [MIT licensed](LICENSE).
+3. No próprio arquivo vai um guia de como preencher os campos;
+
+<strong>5 - </strong> Configurando as variáveis do ambiente de produção:
+
+1. Crie uma copia do arquivo "exemple.env";
+
+2. Modifique o nome dessa copia para ".env";
+
+3. No próprio arquivo vai um guia de como preencher os campos;
+
