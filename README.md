@@ -11,7 +11,6 @@
 # Sumario 
 - [Sumario](#sumario)
 - [Avisos](#avisos)
-    - [Veja o arquivo package.json](#veja-o-arquivo-packagejson)
 - [Executando o projeto](#executando-o-projeto)
 
 <br> 
@@ -22,6 +21,8 @@ ___
 <p align="justify">
 
 Olá, tudo bem? Espero que sim e desde já agradeço pela atenção e oportunidade, meu nome é Lucas de Araujo Cirqueira e fiz o teste porem é a primeira vez utilizando o framework nestJs, eu uso o express, sendo assim acredito que não tireo o verdadeiro potencial do framework nestJs. Desta maneira, o link para arquivo <strong>JSON gerado pelo Insomnia</strong> com as rotas, para acessar o arquivo basta clicar neste <a href='https://github.com/araujo21x/onbank_test/blob/main/documentation/Insomnia-Lucas_Araujo_Cirqueira.json'> link</a> ou procurar na raiz do projeto a pasta <strong>'documentation'</strong> e dentro dela o arquivo <strong>‘Insomnia-Lucas_Araujo_Cirqueira.json’</strong>.
+
+Nas rotas de criar(post), deletar(delete) e editar(put) pokemons customizados é necessário autenticação com o token jwt.
 
 </p>
 
